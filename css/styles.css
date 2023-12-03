@@ -1,3 +1,25 @@
 *{
-    background-color: red;
+    background: rgb(0, 255, 242);
+}
+form{
+    font-size:3vw;
+    text-align: center;
+}
+
+input{
+    font-size: 2rem;
+    width: 30%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+   /* margin: 8px 0;*/
+    /*border: 20px;*/   
+    background-color: white;
+}
+input[type = "submit"]{
+    border: solid black;
+    background: grey;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
 }
